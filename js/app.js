@@ -26,7 +26,7 @@ clickScrollTop.addEventListener("click", () => {
   window.scroll({ top: 0, behavior: "smooth" });
 });
 
-setTimeout(() => {
-  window.scrollTo(0, 0);
-  document.querySelector(".i-frame").style.height = "360px";
-}, 50);
+// setTimeout(() => {
+//   window.scrollTo(0, 0);
+//   document.querySelector(".i-frame").style.height = "360px";
+// }, 50);

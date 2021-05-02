@@ -67,6 +67,10 @@ li {
   padding: 0 10px;
 }
 
+header {
+  z-index: 100;
+}
+
 .header-new {
   background: #f7f8f9;
   border-bottom: 1px solid #eaecf1;
@@ -520,9 +524,20 @@ nav i {
   transform: scaleX(1);
 }
 
+.banner-1 {
+  margin: 0 auto;
+  width: 1100px;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+.banner-1 img {
+  width: 100%;
+}
+
 body .main {
   background-color: #f4f4f4;
-  padding-top: 48px;
+  padding-top: 25px;
 }
 
 .app {
@@ -763,4 +778,126 @@ footer {
 .arrow-to-top i {
   font-size: 2.4rem;
   color: #f4f4f4;
+}
+
+.banner-img {
+  width: 100%;
+  padding: 0 0 0 20px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 50px;
+}
+
+.banner-img img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.section-1 {
+  border-top: solid 1px #ededed;
+}
+
+.my-cafebiz {
+  background-color: #f4f4f7;
+  padding: 15px 15px 0;
+  min-height: 540px;
+}
+
+.my-cafebiz--hot {
+  font-size: 1.2rem;
+  padding: 1px 3px;
+  background-color: #d84e39;
+  color: white;
+}
+
+.my-cafebiz__item-news .my-cafebiz--hot {
+  display: none;
+}
+
+.my-cafebiz__item-news.my-cafebiz__item-news--hot .my-cafebiz--hot {
+  display: inline-block;
+}
+
+.my-cafebiz__title {
+  font-size: 1.9rem;
+  color: #292828;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ededed;
+  letter-spacing: -0.1rem;
+}
+
+.my-cafebiz__title i {
+  color: #c9c9cb;
+}
+
+.my-cafebiz__list-news {
+  list-style: circle;
+}
+
+.my-cafebiz__item-news {
+  list-style: circle;
+  position: relative;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: solid 2px #ededed;
+}
+
+.my-cafebiz__item-news a {
+  line-height: 1.8rem;
+  color: #0e4a81;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.my-cafebiz__link {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.my-cafebiz__link a {
+  font-size: 1.1rem;
+  color: #8e8e8e;
+}
+
+.old-news {
+  height: 100%;
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.old-news__link {
+  position: relative;
+}
+
+.old-news__new img {
+  width: 100%;
+}
+
+.old-news__link > span {
+  bottom: 3px;
+  font-size: 1.3rem;
+  color: #8d93a7;
+  background-color: white;
+  position: absolute;
+  left: 15px;
+}
+
+h3.old-news__title a {
+  color: #2b2b2b;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 7px 0;
+  display: block;
+}
+
+.old-news__view {
+  margin: 5px 0;
+}
+
+.old-news__view > span {
+  color: #81848a;
 }
